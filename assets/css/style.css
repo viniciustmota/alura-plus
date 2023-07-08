@@ -30,7 +30,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 22px;
-    width: 588px;
+    max-width: 588px;
 }
 
 .descricao-combo{
@@ -55,7 +55,7 @@ main{
     color: var(--cor-titulo);
     background-color: var(--bg-btn);
     line-height: 150%;
-    width: 512px;
+    max-width: 512px;
     padding: 16px;
     border-radius: 8px;
     border: none;
@@ -85,7 +85,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 588px;
+    max-width: 588px;
 }
 
 .img-plataforma{
@@ -109,7 +109,7 @@ main{
 
 .btn-menor{
     margin-top: 16px;
-    width: 162.68px;
+    max-width: 162.68px;
 }
 
 .img-telas{
@@ -158,11 +158,12 @@ footer{
 
 .conteudo-footer{
     margin: 0 auto;
-    width: 80%;
+    max-width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -174,7 +175,8 @@ footer{
 .links-footer{
     display: flex;
     gap: 16px;
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    flex-wrap: wrap;
 }
 
 .links-footer .link{
