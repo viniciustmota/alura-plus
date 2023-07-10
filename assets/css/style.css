@@ -21,7 +21,7 @@ body{
 }
 
 .selecao-combo{
-    background-image: url(./assets/img/Background.svg);
+    background-image: url("./assets/img/Background.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
