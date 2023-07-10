@@ -17,13 +17,8 @@ main{
     align-items: center;
 }
 
-.img-bg{
-    width: 100%;
-    margin-bottom: 96px;
-}
-
 .selecao-combo{
-    position: absolute;
+    background-image: url(./assets/img/Background.svg);
     top: 125px;
     left: 54px;
     display: flex;
