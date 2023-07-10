@@ -8,6 +8,7 @@
 
 body{
     background-color: #00030C;
+    color: var(--cor-titulo);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -32,14 +33,11 @@ body{
 }
 
 .container__titulo{
-    color: var(--cor-titulo);
     font-size: 1.875rem;
     font-weight: 700;
 }
 
 .container__img{
-    max-width: 348px;
-    max-height: 100px;
     margin: 1em 0 2em 0;
 }
 
@@ -67,64 +65,38 @@ body{
     margin-top: 10px;
 }
 
-.plataformas{
-    display: flex;
+.secundario{
     align-items: center;
-    margin-bottom: 151px;
+    margin: 0 10em;
 }
 
-.informacoes{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    max-width: 588px;
-}
-
-.img-plataforma{
-    max-width: 498px;
-    max-height: 560px;
+.secundario__img{
+    width: 80%;
     margin-right: 69px;
 }
 
-.titulo{
+.descricao__titulo{
     font-size: 3rem;
-    font-weight: bold;
-    color: var(--cor-titulo);
+    font-weight: 700;
     line-height: 120%;
+    margin-bottom: 0.1em;
 }
 
-.descricao{
-    font-size: 1rem;
+.descricao__texto{
     color: var(--cor-texto-descricao);
     line-height: 150%;
 }
 
-.btn-menor{
-    margin-top: 16px;
-    max-width: 162.68px;
+.secundario__btn{
+    display: inline-block;
+    margin-top: 1em;
 }
 
-.img-telas{
-    max-width: 496px;
-    max-height: 338.96px;
-    margin-left: 70px;
-}
-
-.baixar-cursos{
-    display: flex;
-    align-items: center;
-    margin-top: calc(226.04px - 151px);
-    margin-bottom: 264px;
-}
-
-.img-notebook{
-    max-width: 547px;
-    max-height: 324px;
-    margin-right: 44px;
+.container__descricao{
+    padding: 2em;
 }
 
 .nome-dispositivo{
-    color: var(--cor-titulo);
     font-size: 2rem;
     line-height: 120%;
     text-align: center;
@@ -172,7 +144,6 @@ footer{
 }
 
 .links-footer .link{
-    color: var(--cor-titulo);
     text-decoration: none;
 }
 
